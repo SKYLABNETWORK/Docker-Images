@@ -37,7 +37,7 @@ jobs:
       - uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: Jumala9163
+          username: sora-skylab
           password: ${{ secrets.GITHUBTOKEN }}
       - uses: docker/build-push-action@v3
         with:
