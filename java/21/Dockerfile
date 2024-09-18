@@ -2,7 +2,7 @@ FROM --platform=$TARGETOS/$TARGETARCH eclipse-temurin:21-jre-jammy
 
 LABEL author="sora-skylab" \
       maintainer="soraskylab@gmail.com" \
-      org.opencontainers.image.source="https://github.com/SKYLABNETWORK/Docker-Images" \
+      org.opencontainers.image.source="https://github.com/skylabnetwork/Docker-Images" \
       org.opencontainers.image.licenses=MIT
 
 # Update package lists and install required packages
