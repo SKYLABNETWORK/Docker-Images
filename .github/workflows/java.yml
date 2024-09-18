@@ -45,4 +45,4 @@ jobs:
           file: ./java/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ github.repository_owner }}/docker-images:java_${{ matrix.tag }}
+            ghcr.io/skylabnetwork/docker-images:java_${{ matrix.tag }}
